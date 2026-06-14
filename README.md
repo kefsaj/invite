@@ -1,4 +1,4 @@
-# Kefin & Ludhiya Wedding Website
+# Wedding site
 
 A static wedding invitation site designed for GitHub Pages.
 
