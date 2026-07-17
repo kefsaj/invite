@@ -3,13 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kefin &amp; Ludhiya | Wedding Invitation</title>
-  <meta name="description" content="Kefin Sajan and Ludhiya Mariya James invite you to their wedding on Saturday, September 5, 2026." />
+
+  <title>Kefin & Ludhiya | Wedding Invitation</title>
+  <meta name="description" content="Join us for the wedding of Kefin Sajan and Ludhiya Mariya James on Saturday, September 5, 2026." />
   <meta name="theme-color" content="#7d8d69" />
 
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="Kefin &amp; Ludhiya" />
-  <meta property="og:title" content="Kefin &amp; Ludhiya — Wedding Invitation" />
+  <meta property="og:site_name" content="Kefin & Ludhiya" />
+  <meta property="og:title" content="Kefin & Ludhiya — Wedding Invitation" />
   <meta property="og:description" content="Join us for the wedding of Kefin Sajan and Ludhiya Mariya James on Saturday, September 5, 2026." />
   <meta property="og:url" content="https://kefsaj.github.io/invite/" />
   <meta property="og:image" content="https://kefsaj.github.io/invite/assets/images/og-preview.jpg" />
@@ -17,40 +18,46 @@
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Kefin and Ludhiya wedding invitation preview" />
+  <meta property="og:image:alt" content="Kefin and Ludhiya Wedding Invitation" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Kefin &amp; Ludhiya — Wedding Invitation" />
+  <meta name="twitter:title" content="Kefin & Ludhiya — Wedding Invitation" />
   <meta name="twitter:description" content="Join us for the wedding of Kefin Sajan and Ludhiya Mariya James on Saturday, September 5, 2026." />
   <meta name="twitter:image" content="https://kefsaj.github.io/invite/assets/images/og-preview.jpg" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Great+Vibes&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
   <link rel="stylesheet" href="styles.css" />
 </head>
-<meta property="og:title" content="Kefin & Ludhiya — Wedding Invitation" />
-<meta property="og:description" content="Join us for the wedding of Kefin and Ludhiya on September 5, 2026." />
-<meta property="og:image" content="assets/images/og-preview.jpg" />
 
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Kefin & Ludhiya — Wedding Invitation" />
-<meta name="twitter:description" content="Join us for the wedding of Kefin and Ludhiya on September 5, 2026." />
-<meta name="twitter:image" content="assets/images/og-preview.jpg" />
 <body>
-  <div class="site-loader" id="site-loader" aria-hidden="true">
-    <div class="loader-ring"></div>
-    <p>Kefin &amp; Ludhiya</p>
+  <div class="curtain-intro" id="curtainIntro">
+    <div class="curtain-panel curtain-left"></div>
+    <div class="curtain-panel curtain-right"></div>
+
+    <div class="curtain-content">
+      <p class="intro-kicker">Wedding Invitation</p>
+      <h1>Kefin &amp; Ludhiya</h1>
+      <p class="intro-date">September 5, 2026</p>
+      <button type="button" id="openInvitationBtn" class="intro-button" onclick="openInvitation()">
+        Open Invitation
+      </button>
+    </div>
   </div>
-  
+
   <button class="sound-toggle" id="sound-toggle" type="button" aria-label="Play soft chime">♪</button>
 
   <header class="hero" id="home">
     <nav class="nav" aria-label="Main navigation">
       <a href="#home" class="brand">K &amp; L</a>
-      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        ☰
+      </button>
+
       <div class="nav-links">
-        <a href="#save-date">Save the Date</a>
         <a href="#details">Details</a>
         <a href="#countdown-section">Countdown</a>
         <a href="#gallery">Gallery</a>
@@ -63,21 +70,25 @@
 
     <section class="hero-content" data-animate>
       <p class="eyebrow">Wedding Invitation</p>
-      <h1><span>Kefin</span><em>&amp;</em><span>Ludhiya</span></h1>
-      <p class="hero-date">Saturday, September 5, 2026 · 2:30 PM</p>
-      <p class="hero-venue">St. Thomas Evangelical Church of India, Pulinkara</p>
+      <h1>
+        <span>Kefin</span>
+        <em>&amp;</em>
+        <span>Ludhiya</span>
+      </h1>
+      <p class="hero-date">Saturday, September 5, 2026</p>
+
       <div class="hero-actions">
-        <a class="button button-light" href="#save-date">Open Invitation</a>
-        <a class="button button-glass" href="#details">View Details</a>
+        <a class="button button-light" href="#details">View Details</a>
+        <a class="button button-glass" href="#countdown-section">Countdown</a>
       </div>
     </section>
   </header>
 
   <main>
-    
     <section class="section welcome" data-animate>
       <p class="section-label">With love and gratitude</p>
       <h2>By God’s grace, we are beginning a new chapter together.</h2>
+
       <div class="verse-card">
         <p>“Therefore what God has joined together, let no one separate.”</p>
         <span>Mark 10:9</span>
@@ -95,34 +106,58 @@
           <div class="icon-badge" aria-hidden="true">✚</div>
           <p class="card-label">Marriage Ceremony</p>
           <h3>St. Thomas Evangelical Church of India, Pulinkara</h3>
+
           <div class="event-meta">
             <span>Saturday, September 5, 2026</span>
             <strong>2:30 PM</strong>
           </div>
-          <a class="text-link" href="https://maps.app.goo.gl/s63L49iYTeLPNpJN7" target="_blank" rel="noopener">Open Ceremony Location</a>
+
+          <a class="text-link" href="https://maps.app.goo.gl/s63L49iYTeLPNpJN7" target="_blank" rel="noopener">
+            Open Ceremony Location
+          </a>
         </article>
 
         <article class="detail-card" data-animate>
           <div class="icon-badge" aria-hidden="true">❦</div>
           <p class="card-label">Reception</p>
           <h3>Kizhakuden's HeartLand Convention Centre</h3>
+
           <div class="event-meta">
             <span>Chalakudy, Kerala</span>
             <strong>6:00 PM</strong>
           </div>
-          <a class="text-link" href="https://maps.app.goo.gl/pga3zNuuGcxLTnzX7" target="_blank" rel="noopener">Open Reception Location</a>
+
+          <a class="text-link" href="https://maps.app.goo.gl/pga3zNuuGcxLTnzX7" target="_blank" rel="noopener">
+            Open Reception Location
+          </a>
         </article>
       </div>
     </section>
 
     <section class="section countdown" id="countdown-section" aria-live="polite" data-animate>
+      <div class="section-heading">
+      
       <p class="section-label">Counting down to</p>
       <h2>Our Special Day</h2>
+
       <div class="countdown-grid" id="countdown">
-        <div class="count-card"><strong id="days">—</strong><span>Days</span></div>
-        <div class="count-card"><strong id="hours">—</strong><span>Hours</span></div>
-        <div class="count-card"><strong id="minutes">—</strong><span>Minutes</span></div>
-        <div class="count-card"><strong id="seconds">—</strong><span>Seconds</span></div>
+        <div class="count-card">
+          <strong id="days">—</strong>
+          <span>Days</span>
+        </div>
+        <div class="count-card">
+          <strong id="hours">—</strong>
+          <span>Hours</span>
+        </div>
+        <div class="count-card">
+          <strong id="minutes">—</strong>
+          <span>Minutes</span>
+        </div>
+        <div class="count-card">
+          <strong id="seconds">—</strong>
+          <span>Seconds</span>
+        </div>
+      </div>
       </div>
     </section>
 
@@ -131,16 +166,23 @@
         <p class="section-label">Together with our families</p>
         <h2>Our Families</h2>
       </div>
+
       <div class="family-layout">
         <article class="family-card" data-animate>
           <p class="card-label">Groom</p>
           <h3>Kefin Sajan</h3>
           <div class="mini-line"></div>
           <p>Son of</p>
-          <h4>Mr. Sajan Simon &amp; Dr. Sheela Sajan</h4>
+          <h4>Mr. Sajan Simon &amp; Mrs. Sheela Sajan</h4>
           <p>Kuzhiyamattathil House · Dumont, New Jersey</p>
         </article>
-        <div class="family-center" aria-hidden="true"><span>K</span><small>&amp;</small><span>L</span></div>
+
+        <div class="family-center" aria-hidden="true">
+          <span>K</span>
+          <small>&amp;</small>
+          <span>L</span>
+        </div>
+
         <article class="family-card" data-animate>
           <p class="card-label">Bride</p>
           <h3>Ludhiya Mariya James</h3>
@@ -155,10 +197,11 @@
     <section class="section gallery" id="gallery" data-animate>
       <p class="section-label">Gallery</p>
       <h2>A few memories</h2>
+
       <div class="gallery-grid">
-        <img src="assets/images/hero-photo.jpg" alt="Kefin and Ludhiya illustrated portrait" loading="lazy" />
-        <img src="assets/images/cover-photo.jpg" alt="Kefin and Ludhiya jeep portrait" loading="lazy" />
-        <img src="assets/images/walking-photo.jpg" alt="Kefin and Ludhiya walking together" loading="lazy" />
+        <img src="assets/images/car.JPG" alt="Kefin and Ludhiya jeep portrait" loading="lazy" />
+        <img src="assets/images/holding-hands.JPG" alt="Kefin and Ludhiya holding hands" loading="lazy" />
+        <img src="assets/images/walking-photo.JPG" alt="Kefin and Ludhiya walking together" loading="lazy" />
       </div>
     </section>
   </main>
@@ -169,20 +212,6 @@
     <p class="small">Kefin &amp; Ludhiya · September 5, 2026</p>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=7"></script>
 </body>
-
-<div class="curtain-intro" id="curtainIntro">
-  <div class="curtain-panel curtain-left"></div>
-  <div class="curtain-panel curtain-right"></div>
-
-  <div class="curtain-content">
-    <p class="intro-kicker">Wedding Invitation</p>
-    <h1>Kefin & Ludhiya</h1>
-    <p class="intro-date">September 5, 2026</p>
-    <button type="button" id="openInvitationBtn" class="intro-button">
-      Open Invitation
-    </button>
-  </div>
-</div>
 </html>
