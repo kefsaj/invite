@@ -20,7 +20,7 @@ og-preview.jpg      # Social media/link preview image
 
 To replace a photo later, add a new image to `assets/images/` and update the matching filename in `index.html`.
 
-RL is:
+URL is:
 
 ```text
 https://kefsaj.github.io/invite/
