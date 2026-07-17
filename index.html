@@ -29,12 +29,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Great+Vibes&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
+<meta property="og:title" content="Kefin & Ludhiya — Wedding Invitation" />
+<meta property="og:description" content="Join us for the wedding of Kefin and Ludhiya on September 5, 2026." />
+<meta property="og:image" content="assets/images/og-preview.jpg" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Kefin & Ludhiya — Wedding Invitation" />
+<meta name="twitter:description" content="Join us for the wedding of Kefin and Ludhiya on September 5, 2026." />
+<meta name="twitter:image" content="assets/images/og-preview.jpg" />
 <body>
   <div class="site-loader" id="site-loader" aria-hidden="true">
     <div class="loader-ring"></div>
     <p>Kefin &amp; Ludhiya</p>
   </div>
-
+  
   <button class="sound-toggle" id="sound-toggle" type="button" aria-label="Play soft chime">♪</button>
 
   <header class="hero" id="home">
@@ -66,30 +74,7 @@
   </header>
 
   <main>
-    <section class="section save-date" id="save-date" data-animate>
-      <p class="section-label">Save the Date</p>
-      <div class="reveal-stage" id="reveal-stage">
-        <button class="sealed-card" id="reveal-button" type="button" aria-label="Tap to reveal the wedding invitation">
-          <img src="assets/images/cover-photo.jpg" alt="Kefin and Ludhiya illustrated wedding portrait" />
-          <span class="tap-pill">Tap to reveal our special day</span>
-        </button>
-
-        <article class="date-card" id="date-card" aria-live="polite">
-          <span class="corner corner-tl"></span>
-          <span class="corner corner-tr"></span>
-          <span class="corner corner-bl"></span>
-          <span class="corner corner-br"></span>
-          <p class="card-kicker">Mark your calendar</p>
-          <h2>September 5th, 2026</h2>
-          <div class="gold-line"></div>
-          <p class="time-line">Saturday · 2:30 PM</p>
-          <p class="place-line">St. Thomas Evangelical Church of India, Pulinkara</p>
-          <p class="reception-line">Reception at 6:00 PM · Kizhakuden's HeartLand Convention Centre</p>
-          <a class="button button-sage" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Kefin+%26+Ludhiya+Wedding&dates=20260905T090000Z/20260905T133000Z&details=Wedding+Ceremony+at+2%3A30+PM+and+Reception+at+6%3A00+PM&location=St.+Thomas+Evangelical+Church+of+India+Pulinkara" target="_blank" rel="noopener">Add to Calendar</a>
-        </article>
-      </div>
-    </section>
-
+    
     <section class="section welcome" data-animate>
       <p class="section-label">With love and gratitude</p>
       <h2>By God’s grace, we are beginning a new chapter together.</h2>
@@ -186,4 +171,18 @@
 
   <script src="script.js"></script>
 </body>
+
+<div class="curtain-intro" id="curtainIntro">
+  <div class="curtain-panel curtain-left"></div>
+  <div class="curtain-panel curtain-right"></div>
+
+  <div class="curtain-content">
+    <p class="intro-kicker">Wedding Invitation</p>
+    <h1>Kefin & Ludhiya</h1>
+    <p class="intro-date">September 5, 2026</p>
+    <button type="button" id="openInvitationBtn" class="intro-button">
+      Open Invitation
+    </button>
+  </div>
+</div>
 </html>
